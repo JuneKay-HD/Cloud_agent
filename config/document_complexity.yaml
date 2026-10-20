@@ -1,0 +1,26 @@
+version: document-assessment-v1
+weights: {A: 35, L: 25, T: 20, F: 20}
+levels: {medium: 30, high: 60}
+preflight_seconds: 20
+quality:
+  version: document-quality-v1
+  render_scale: 2
+  max_dimension: 2200
+  seconds: 30
+  orientation_margin: 0.08
+  orientation_min_characters: 8
+  orientation_max_regions: 2
+  orientation_max_pages: 8
+  skew_suspect_degrees: 2
+  skew_fail_degrees: 8
+  blur_suspect: 50
+  blur_fail: 15
+  contrast_suspect: 35
+  contrast_fail: 15
+  illustration_resolution_fail: 96
+  illustration_resolution_suspect: 150
+  illustration_blur_fail: 15
+  illustration_blur_suspect: 50
+  illustration_max_regions: 4
+  ocr_grade_low: 0.65
+  ocr_grade_high: 0.85

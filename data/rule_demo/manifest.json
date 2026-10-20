@@ -1,0 +1,20 @@
+{
+  "synthetic": true,
+  "customer_count": 10,
+  "invoice_count": 20,
+  "semantics": "Refund.Amount仅为已确认退款；按原始发票年度归属，扣除其全部关联退款",
+  "files": {
+    "source_metadata.json": "16973a8e3d87e549507afaed66d4087e43f3a40eb2477b0b63c7c788dbfdd8f9",
+    "中国经营建议.md": "fcee1fc722e5bff212fcff6bff06611b23d895b41a04846e8e91c3828369e43b",
+    "优惠资格规则.docx": "8f9f473ccec371983a504a66e15fe487a6fb35794e78b313210a03b340c5415e",
+    "加拿大经营建议.md": "112ba62e3b085b772457d52a36c253f4d203783b0b562bc55c78f6e7e5e5bdbd",
+    "发票时间说明.txt": "d516172f077d3f8051319e21ff68bd061477aa697999033a4127de5406dd28d2",
+    "客户统计说明.txt": "2b81f7aa00040b8ec08aab91ee43d0d83ed7f4951c89a5cdee6e40a8c7bda2b4",
+    "德国经营建议.md": "13e12960efe56ba307d8a79df475488f010a1de2051769b82018adbbad7733c6",
+    "数据使用说明.txt": "2bccd75442a1ff192ff9710ae84fd981e80d4f9070e90d2916726838a377fa04",
+    "法国经营建议.md": "f781ad435359652072c4d89e4e1899a565fc5af566d02b68dc68477f12eed606",
+    "美国经营建议.md": "4f0a4523b96d052cbcfd5ceaec7138d3853994e98d22cb92eee94737d65d4ebf",
+    "退款计算规则.pdf": "1794b258e39b9453ff7d8db50e07b683424ba4fba2b8183db9f281ab9cd07e73",
+    "销售指标口径说明.md": "a95f97fcaf0a49415635d1a93ee441d05b812d696be3698a7d89c035b4be7b03"
+  }
+}

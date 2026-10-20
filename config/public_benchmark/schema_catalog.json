@@ -1,0 +1,73 @@
+{
+  "database": "Chinook.sqlite",
+  "dialect": "sqlite",
+  "tables": [
+    {
+      "name": "Invoice",
+      "description": "销售发票，一行代表一张发票",
+      "primary_key": "InvoiceId",
+      "columns": [
+        {
+          "name": "InvoiceId",
+          "type": "INTEGER",
+          "description": "发票编号"
+        },
+        {
+          "name": "CustomerId",
+          "type": "INTEGER",
+          "description": "客户编号"
+        },
+        {
+          "name": "InvoiceDate",
+          "type": "DATETIME",
+          "description": "开票日期"
+        },
+        {
+          "name": "BillingCountry",
+          "type": "NVARCHAR(40)",
+          "description": "账单国家"
+        },
+        {
+          "name": "Total",
+          "type": "NUMERIC(10,2)",
+          "description": "原始发票总金额；无独立税额或币种字段，不推断含税或净收入"
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "description": "客户主数据，一行代表一个客户",
+      "primary_key": "CustomerId",
+      "columns": [
+        {
+          "name": "CustomerId",
+          "type": "INTEGER",
+          "description": "客户编号"
+        },
+        {
+          "name": "FirstName",
+          "type": "NVARCHAR(40)",
+          "description": "名"
+        },
+        {
+          "name": "LastName",
+          "type": "NVARCHAR(20)",
+          "description": "姓"
+        },
+        {
+          "name": "Country",
+          "type": "NVARCHAR(40)",
+          "description": "客户所在国家"
+        }
+      ]
+    }
+  ],
+  "joins": [
+    {
+      "left": "Invoice.CustomerId",
+      "right": "Customer.CustomerId",
+      "type": "many_to_one"
+    }
+  ],
+  "dataset": "Chinook v1.4.5"
+}

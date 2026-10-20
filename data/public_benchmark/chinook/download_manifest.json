@@ -1,0 +1,947 @@
+{
+  "repository": "https://github.com/lerocha/chinook-database",
+  "release": "v1.4.5",
+  "release_commit": "4a944a942426e1f3263fe539155fb7ef92b04b4a",
+  "master_commit_at_download": "7f67772503d71ba90f19283c38e93923addb43fa",
+  "downloaded_at": "2026-10-11T19:27:20.431934+08:00",
+  "release_assets_page": "https://github.com/lerocha/chinook-database/releases/expanded_assets/v1.4.5",
+  "release_asset_count": 16,
+  "release_source_archive_count": 2,
+  "master_source_archive_count": 1,
+  "downloads": [
+    {
+      "path": "archives/chinook-database-master-7f67772503d71ba90f19283c38e93923addb43fa.zip",
+      "category": "master_source_archive",
+      "source_url": "https://github.com/lerocha/chinook-database/archive/7f67772503d71ba90f19283c38e93923addb43fa.zip",
+      "resolved_url": "https://codeload.github.com/lerocha/chinook-database/zip/7f67772503d71ba90f19283c38e93923addb43fa",
+      "size_bytes": 3017779,
+      "sha256": "de96e125ae31aea6b79cf13c4df6c2d431e8ddf70f3c231270d21e440b6bc9bd",
+      "etag": "\"93304e10e06bb549cb07ba7adbcf8d3652dffe4620000fb0ec3f784e8fe86171\"",
+      "last_modified": null
+    },
+    {
+      "path": "archives/chinook-database-v1.4.5.tar.gz",
+      "category": "release_source_archive",
+      "source_url": "https://github.com/lerocha/chinook-database/archive/refs/tags/v1.4.5.tar.gz",
+      "resolved_url": "https://codeload.github.com/lerocha/chinook-database/tar.gz/refs/tags/v1.4.5",
+      "size_bytes": 3116743,
+      "sha256": "3602015d64d5758df791faa5c728e7086532e6fd18101e6a5bb63f5753cc7f69",
+      "etag": "\"10e37d0ee2580639cbd9ab0c23a6ad9dd3fff0e03a36ddf51b9ac926a4f504e2\"",
+      "last_modified": null
+    },
+    {
+      "path": "archives/chinook-database-v1.4.5.zip",
+      "category": "release_source_archive",
+      "source_url": "https://github.com/lerocha/chinook-database/archive/refs/tags/v1.4.5.zip",
+      "resolved_url": "https://codeload.github.com/lerocha/chinook-database/zip/refs/tags/v1.4.5",
+      "size_bytes": 3104769,
+      "sha256": "652f1925b6fa66d609efe0675f77205d7b13411034d3e9942f80b3e70a7eb030",
+      "etag": "\"10e37d0ee2580639cbd9ab0c23a6ad9dd3fff0e03a36ddf51b9ac926a4f504e2\"",
+      "last_modified": null
+    },
+    {
+      "path": "releases/v1.4.5/ChinookData.json",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/ChinookData.json",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/a10a6234-3585-4d18-a3f6-0c70d221e48b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A12%3A09Z&rscd=attachment%3B+filename%3DChinookData.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A11%3A22Z&ske=2026-10-11T12%3A12%3A09Z&sks=b&skv=2018-11-09&sig=0kH66G5SyV4%2Bk9eHmQRq4EoJfBnRcLoEp%2BHkbzh75oQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMiwibmJmIjoxNzkxNzE4MDMyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DRf89nuY0qsCSctdMGYk3CFhYBmmtazToxe6vY2zqYs&response-content-disposition=attachment%3B%20filename%3DChinookData.json&response-content-type=application%2Foctet-stream",
+      "size_bytes": 1897482,
+      "sha256": "2998161de437518e3447e779c7ce7418f081895e388081bff315f3c258752d8c",
+      "etag": "\"0x8DC2B865A902E89\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:02 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_Db2.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_Db2.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/37834c06-caa8-4757-9f9b-3a6a5454be87?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A23%3A34Z&rscd=attachment%3B+filename%3DChinook_Db2.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A23%3A15Z&ske=2026-10-11T12%3A23%3A34Z&sks=b&skv=2018-11-09&sig=vIt%2F9fpjpkvxeuE%2BsmWC6MVH4LNj%2FYoP0Wxi%2BTpoMpY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMiwibmJmIjoxNzkxNzE4MDMyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DRf89nuY0qsCSctdMGYk3CFhYBmmtazToxe6vY2zqYs&response-content-disposition=attachment%3B%20filename%3DChinook_Db2.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 604388,
+      "sha256": "c3c02ef80b75ee31682c4c6e617ca62a0639cb024231fa6bed97cc1b8042047f",
+      "etag": "\"0x8DC2B8666816CCC\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:22 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_MySql.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_MySql.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/e472d033-457e-484f-959a-9603f7447a06?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A03%3A32Z&rscd=attachment%3B+filename%3DChinook_MySql.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A02%3A56Z&ske=2026-10-11T12%3A03%3A32Z&sks=b&skv=2018-11-09&sig=onmTBIkplUxZOpCJ6hj2Fo8h94y6rTxdVLnou%2Fje5S4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMiwibmJmIjoxNzkxNzE4MDMyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DRf89nuY0qsCSctdMGYk3CFhYBmmtazToxe6vY2zqYs&response-content-disposition=attachment%3B%20filename%3DChinook_MySql.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 616450,
+      "sha256": "02a1835417c3ea19bff64e1d1f22be738ce51b3f88b0473c24eebff9a3ccde4b",
+      "etag": "\"0x8DC2B865E3F7470\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:08 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_MySql_AutoIncrementPKs.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_MySql_AutoIncrementPKs.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/b3f0e76a-2730-44de-8ee4-b1b7a845e0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A21%3A51Z&rscd=attachment%3B+filename%3DChinook_MySql_AutoIncrementPKs.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A21%3A22Z&ske=2026-10-11T12%3A21%3A51Z&sks=b&skv=2018-11-09&sig=DCWG3q5Lb4qCqb5GJm9WL%2BOYdnLej6emtyfvfi5IAgw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMiwibmJmIjoxNzkxNzE4MDMyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DRf89nuY0qsCSctdMGYk3CFhYBmmtazToxe6vY2zqYs&response-content-disposition=attachment%3B%20filename%3DChinook_MySql_AutoIncrementPKs.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 578950,
+      "sha256": "568e22cec9021e5bf9f20964788b198e4d06870b22c5cfc02f57725bb9da34c8",
+      "etag": "\"0x8DC2B865E886061\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:09 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_Oracle.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_Oracle.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/b2841c12-0b88-44de-87d9-cd8763181ffa?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A22%3A27Z&rscd=attachment%3B+filename%3DChinook_Oracle.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A21%3A42Z&ske=2026-10-11T12%3A22%3A27Z&sks=b&skv=2018-11-09&sig=rCoEmoQxrPJdYWv0mTAc1bpiKhIHMcl%2BH1%2BKqT4pqis%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMywibmJmIjoxNzkxNzE4MDMzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.JNqDZV4VEcAKQdsryoHf3aLfktppc1E2PTHNP4x6POk&response-content-disposition=attachment%3B%20filename%3DChinook_Oracle.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 629968,
+      "sha256": "8db05a9b191c5c02d3f92c7775f7f581a611f5a46ba6ba8b614a042736dadcda",
+      "etag": "\"0x8DC2B865E06A2F6\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:08 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_PostgreSql.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_PostgreSql.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/5c3c7cea-34ac-4fdb-8650-a8e9698af1f7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A04%3A15Z&rscd=attachment%3B+filename%3DChinook_PostgreSql.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A03%3A30Z&ske=2026-10-11T12%3A04%3A15Z&sks=b&skv=2018-11-09&sig=tm88gr%2BvGBDcz5YorTdSlWAXwd9O9ArrfVmtutn9ucM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMywibmJmIjoxNzkxNzE4MDMzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.JNqDZV4VEcAKQdsryoHf3aLfktppc1E2PTHNP4x6POk&response-content-disposition=attachment%3B%20filename%3DChinook_PostgreSql.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 600200,
+      "sha256": "e3fde5c1a5b51a2a91429a702c9ca6e69ba56e6c7f5e112724d70c3d03db695e",
+      "etag": "\"0x8DC2B865D594BA9\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:07 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_PostgreSql_AutoIncrementPKs.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_PostgreSql_AutoIncrementPKs.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/a9af4ea5-33aa-441e-8022-7f1ca480144e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A15%3A14Z&rscd=attachment%3B+filename%3DChinook_PostgreSql_AutoIncrementPKs.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A14%3A53Z&ske=2026-10-11T12%3A15%3A14Z&sks=b&skv=2018-11-09&sig=C5vLXBpl0TdHYzFMKRSEcNSeHw6e4CZrMPcwlctAjZY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzMywibmJmIjoxNzkxNzE4MDMzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.JNqDZV4VEcAKQdsryoHf3aLfktppc1E2PTHNP4x6POk&response-content-disposition=attachment%3B%20filename%3DChinook_PostgreSql_AutoIncrementPKs.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 578730,
+      "sha256": "4362ba0c8a8c7851f58508f2880c869e02269237e486357c73acf6365ff0a855",
+      "etag": "\"0x8DC2B865DD51C4B\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:07 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_PostgreSql_SerialPKs.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_PostgreSql_SerialPKs.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/c2cf8ef7-93ee-4c19-8751-68fc8c655693?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A16%3A22Z&rscd=attachment%3B+filename%3DChinook_PostgreSql_SerialPKs.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A15%3A44Z&ske=2026-10-11T12%3A16%3A22Z&sks=b&skv=2018-11-09&sig=D4MrdmmPHAhIgsbRFocqSWUPdYWkHgxmssQWH4Makqo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNCwibmJmIjoxNzkxNzE4MDM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.91tENrG4YhVLDWE-22d0A8VUDyMEbLHBecPgjtf1tR4&response-content-disposition=attachment%3B%20filename%3DChinook_PostgreSql_SerialPKs.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 562563,
+      "sha256": "847361ebbd17aaa18b5423831bf3bfc7ab1f0ad3c62c5bfe4770242bec5ddaf1",
+      "etag": "\"0x8DC2B865D974765\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:07 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_SqlServer.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_SqlServer.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/0ee02b65-3e7f-4f74-b81f-6576bfe816af?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A17%3A35Z&rscd=attachment%3B+filename%3DChinook_SqlServer.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A16%3A36Z&ske=2026-10-11T12%3A17%3A35Z&sks=b&skv=2018-11-09&sig=sgc1gdt0rXmQdnck3LQiVIKWAmX8qBQK7G7h07MzbLM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNCwibmJmIjoxNzkxNzE4MDM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.91tENrG4YhVLDWE-22d0A8VUDyMEbLHBecPgjtf1tR4&response-content-disposition=attachment%3B%20filename%3DChinook_SqlServer.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 601344,
+      "sha256": "5ea75c9e925ead917d3fabea6ed3cc8c1ff1d036b61e915c94631aafa2b0802b",
+      "etag": "\"0x8DC2B865B52CAA4\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:03 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_SqlServerCompact.sqlce",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_SqlServerCompact.sqlce",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/ae8be5ee-ad18-437b-a59a-757927f51660?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A19%3A51Z&rscd=attachment%3B+filename%3DChinook_SqlServerCompact.sqlce&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A19%3A39Z&ske=2026-10-11T12%3A19%3A51Z&sks=b&skv=2018-11-09&sig=EixFm00okhbbItJV7cRTQwRkfaurYQlzYjw4Nj5HEN0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNCwibmJmIjoxNzkxNzE4MDM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.91tENrG4YhVLDWE-22d0A8VUDyMEbLHBecPgjtf1tR4&response-content-disposition=attachment%3B%20filename%3DChinook_SqlServerCompact.sqlce&response-content-type=application%2Foctet-stream",
+      "size_bytes": 616003,
+      "sha256": "40d7c26434bce38b05387c282bbd0f4d61f7ee21edb66a3680df0c2a19103974",
+      "etag": "\"0x8DC2B865ABC1643\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:02 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_SqlServerCompact_AutoIncrementPKs.sqlce",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_SqlServerCompact_AutoIncrementPKs.sqlce",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/80434b5f-d9b5-4481-9f05-b365a79cf353?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A05%3A05Z&rscd=attachment%3B+filename%3DChinook_SqlServerCompact_AutoIncrementPKs.sqlce&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A04%3A09Z&ske=2026-10-11T12%3A05%3A05Z&sks=b&skv=2018-11-09&sig=Z%2Bqqndjw6LvmzrJjY%2FdD%2BWQ72seHOPXW%2FCkYPcDIt2Y%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNSwibmJmIjoxNzkxNzE4MDM1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WTsFgQ0hL9nXBSv2XjjCx-aP5n4Ao7FysCSkc76lcSQ&response-content-disposition=attachment%3B%20filename%3DChinook_SqlServerCompact_AutoIncrementPKs.sqlce&response-content-type=application%2Foctet-stream",
+      "size_bytes": 578401,
+      "sha256": "161a5e446688aea98ba7c72ed37af663482fa5b3717945231bcd42629ba7c7e8",
+      "etag": "\"0x8DC2B865AFC8037\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:03 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_SqlServer_AutoIncrementPKs.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_SqlServer_AutoIncrementPKs.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/13c01b6e-93bb-4d5c-ba27-96719c48d645?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A03%3A23Z&rscd=attachment%3B+filename%3DChinook_SqlServer_AutoIncrementPKs.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A02%3A41Z&ske=2026-10-11T12%3A03%3A23Z&sks=b&skv=2018-11-09&sig=hXUMGLTTxwL6Q%2BnPnqCd3hn%2BFzR87BPwhIohKymTfB4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNSwibmJmIjoxNzkxNzE4MDM1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WTsFgQ0hL9nXBSv2XjjCx-aP5n4Ao7FysCSkc76lcSQ&response-content-disposition=attachment%3B%20filename%3DChinook_SqlServer_AutoIncrementPKs.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 563826,
+      "sha256": "71c370fc0c55b638b1fee0b701bc7b6b97731d34caa3addc921160b5ad0bb610",
+      "etag": "\"0x8DC2B865B9003F2\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:04 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_Sqlite.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_Sqlite.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/996283a2-2f30-4e7e-9c69-739711be8620?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A04%3A58Z&rscd=attachment%3B+filename%3DChinook_Sqlite.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A04%3A57Z&ske=2026-10-11T12%3A04%3A58Z&sks=b&skv=2018-11-09&sig=FYoUv1fsrtjRvWkB5BjT%2BrbX7QAPO0e9Fih2BTVqkww%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNSwibmJmIjoxNzkxNzE4MDM1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WTsFgQ0hL9nXBSv2XjjCx-aP5n4Ao7FysCSkc76lcSQ&response-content-disposition=attachment%3B%20filename%3DChinook_Sqlite.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 611447,
+      "sha256": "fdcb271b3e9c840216b09168752bddca973ed3917b40e49b603b15831114aea1",
+      "etag": "\"0x8DC2B865C1980E2\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:05 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_Sqlite.sqlite",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_Sqlite.sqlite",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/f874d47d-29a1-4df5-9784-b25c33a86bc8?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A12%3A26Z&rscd=attachment%3B+filename%3DChinook_Sqlite.sqlite&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A11%3A27Z&ske=2026-10-11T12%3A12%3A26Z&sks=b&skv=2018-11-09&sig=sruvACPn8FvYRmS9zd2Y21HsORzLFIfy7uTlmF4fgGM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNSwibmJmIjoxNzkxNzE4MDM1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WTsFgQ0hL9nXBSv2XjjCx-aP5n4Ao7FysCSkc76lcSQ&response-content-disposition=attachment%3B%20filename%3DChinook_Sqlite.sqlite&response-content-type=application%2Foctet-stream",
+      "size_bytes": 1067008,
+      "sha256": "bdf635be69850bd3be09c9a2dbeef7ddfb80036bd3ef3381383cd03b61e4a61a",
+      "etag": "\"0x8DC2B865BDC20A3\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:04 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_Sqlite_AutoIncrementPKs.sql",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_Sqlite_AutoIncrementPKs.sql",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/0c448f07-7c10-4f39-9457-6d7c0a036d7e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A28%3A01Z&rscd=attachment%3B+filename%3DChinook_Sqlite_AutoIncrementPKs.sql&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A27%3A10Z&ske=2026-10-11T12%3A28%3A01Z&sks=b&skv=2018-11-09&sig=9NDf3hBM%2F2iNfanEO7XE%2FQDJvlBbNUF%2BaLJy8FEEJs4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNiwibmJmIjoxNzkxNzE4MDM2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.S4FQCQUiwokyoMYSwaqsaqBkvyrKl_V1eOERbrzhFqc&response-content-disposition=attachment%3B%20filename%3DChinook_Sqlite_AutoIncrementPKs.sql&response-content-type=application%2Foctet-stream",
+      "size_bytes": 573431,
+      "sha256": "8918f02ec280d47f6ca0bb04b8a9a3a175467ae8033d6a4a330bb4d584fc0a9c",
+      "etag": "\"0x8DC2B865D04FAD2\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:06 GMT"
+    },
+    {
+      "path": "releases/v1.4.5/Chinook_Sqlite_AutoIncrementPKs.sqlite",
+      "category": "release_asset",
+      "source_url": "https://github.com/lerocha/chinook-database/releases/download/v1.4.5/Chinook_Sqlite_AutoIncrementPKs.sqlite",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/26098045/f392879e-c3a5-4f50-864f-22b750129928?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T12%3A02%3A43Z&rscd=attachment%3B+filename%3DChinook_Sqlite_AutoIncrementPKs.sqlite&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T11%3A02%3A21Z&ske=2026-10-11T12%3A02%3A43Z&sks=b&skv=2018-11-09&sig=E8ChbHsna78UGSXH%2BMSrSh8%2F%2FKfCujy0kJ8l0AgI%2BiE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTcxODMzNiwibmJmIjoxNzkxNzE4MDM2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.S4FQCQUiwokyoMYSwaqsaqBkvyrKl_V1eOERbrzhFqc&response-content-disposition=attachment%3B%20filename%3DChinook_Sqlite_AutoIncrementPKs.sqlite&response-content-type=application%2Foctet-stream",
+      "size_bytes": 1067008,
+      "sha256": "ca157cb58cb34ed2e5d4eb3418ae7a9418f0cfe8b751985b6a4482346c9548d4",
+      "etag": "\"0x8DC2B865C77B19D\"",
+      "last_modified": "Mon, 12 Feb 2024 04:52:05 GMT"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "source/master/.gitattributes",
+      "size_bytes": 724,
+      "sha256": "322315bf9d17848d9decfa20f8295ad31807bb2a4e1a674b1918ab6cb8397456"
+    },
+    {
+      "path": "source/master/.gitignore",
+      "size_bytes": 252,
+      "sha256": "a8aecd3b65cfea1c0a813c285955dff9e98ae17aaed5144b11e49b39d53f3d4d"
+    },
+    {
+      "path": "source/master/.vscode/extensions.json",
+      "size_bytes": 117,
+      "sha256": "c6315a93ae81650c2395bbb1a47459858b50d306607061b44964e64dd3423a80"
+    },
+    {
+      "path": "source/master/.vscode/launch.json",
+      "size_bytes": 765,
+      "sha256": "090524dcd2baa884785e0378410d86e934d0f3590f02792375a2ab86f1131eb6"
+    },
+    {
+      "path": "source/master/.vscode/tasks.json",
+      "size_bytes": 2562,
+      "sha256": "1c5f631b8c196d7a5cc9a53362dc02ca89be8d5f5fdf3d2361c58044c5db0360"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/ChinookDatabase.Test.csproj",
+      "size_bytes": 5014,
+      "sha256": "edd1e4b3f1618dafdf89f91611c22c50f60644661f5f8184f2b50e46ec6163c8"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/ChinookDb2Fixture.cs",
+      "size_bytes": 37439,
+      "sha256": "6f1f667a7476aa4e2b44538261dc4027e1fe6c34e98f982dc4c9b45a7b56437c"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/ChinookMySqlFixture.cs",
+      "size_bytes": 38987,
+      "sha256": "0ae490cbb6b117e018dbb22d3c9671c2cd59c419f9c49406c10cec72da9663a7"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/ChinookOracleFixture.cs",
+      "size_bytes": 37270,
+      "sha256": "93ba336b0e3a24a181573e6a6ff63880303ca4be5683721eb6f3451d7c3d09fc"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/ChinookPostgreSqlFixture.cs",
+      "size_bytes": 40880,
+      "sha256": "548493d0314ca1052ab89b4e882b73b2f45599a5e1a35d747e2103eb5f75f4ac"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/ChinookSqlServerFixture.cs",
+      "size_bytes": 39545,
+      "sha256": "987c5cb446e0edc1f74eb1182d2cdd7e789a25c812293306d3be9484862f93b3"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/ChinookSqliteFixture.cs",
+      "size_bytes": 39348,
+      "sha256": "62d14390fa17acd9ffa772af54cab3a0ee3b938287ef08b45ac58a0f6ff35bf3"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/DatabaseFixture.cs",
+      "size_bytes": 91,
+      "sha256": "4ec95dc04467d19eccc52480df20b3959e5a0e2114697e513313eef761a3f9e5"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/DatabaseTests/DatabaseFixture.tt",
+      "size_bytes": 13238,
+      "sha256": "1b70e3d2794096b791b8ef0b76c7519a95f556a726b3a921473c84b2afe4a643"
+    },
+    {
+      "path": "source/master/ChinookDatabase.Test/appsettings.test.json",
+      "size_bytes": 1253,
+      "sha256": "0fd182139b487d25fbafaf3acff06ed8cf6b887ccea4ebad1ff5bafdc9cd8f0b"
+    },
+    {
+      "path": "source/master/ChinookDatabase.sln",
+      "size_bytes": 1634,
+      "sha256": "a78a77c9b45d2e9ef4b6b932f90b5a83f05bed9a3c7aedaa0d1ab2f0f8c59574"
+    },
+    {
+      "path": "source/master/ChinookDatabase/ChinookDatabase.csproj",
+      "size_bytes": 3405,
+      "sha256": "58a01701ca14fd19aed269b95035b4096e0fa0be7646fe9b0c15558545c68c06"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Album.cs",
+      "size_bytes": 528,
+      "sha256": "8d9fd422ef19dbbb340e5cb3cfe681ca8afee09ff1f9bb027b1aa9b25c966579"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Artist.cs",
+      "size_bytes": 340,
+      "sha256": "e64f6432dbcf9728dc2dbae67a01d7b3b1debcf48ba4cf421370ae9478c7f012"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Customer.cs",
+      "size_bytes": 1245,
+      "sha256": "332b23c195b371202a130e8303a706b71a744a4ac96e924296bae462cf69181f"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Employee.cs",
+      "size_bytes": 1354,
+      "sha256": "fba43db310fd7b64820660b6e04681798dc93d9e1081faf6f973bb2dca6fcd99"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Genre.cs",
+      "size_bytes": 326,
+      "sha256": "8b91f885bb088357c7b67a201b095d2c775d172aa149f9e9d003958904dd4b65"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Invoice.cs",
+      "size_bytes": 982,
+      "sha256": "44f5d108ffa3fe1996350300b513813653bb86d0685fd1d207ef83710284b2b4"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/InvoiceLine.cs",
+      "size_bytes": 737,
+      "sha256": "93d84cc463500a2292cdbf58d16891f96b85a13b849cc2c434b6a10235ff63b1"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/MediaType.cs",
+      "size_bytes": 342,
+      "sha256": "269ae0e165bb46c3b630691931824bbc2de34d9a1e0d8cf75fc69a438f3ce23e"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Playlist.cs",
+      "size_bytes": 348,
+      "sha256": "363ad4726bb8e4fd650983749b4da093421808bef716964f10b59b2c3be4f8ff"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/PlaylistTrack.cs",
+      "size_bytes": 625,
+      "sha256": "16d3ddd2154f650203cfce35b9fb80b7ebb293efb39f6c61aa8e6f1514adeb63"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataModel/Track.cs",
+      "size_bytes": 957,
+      "sha256": "2b7dfcd80f5e805e47e6f0ae0e4bbd567ca3f29784244a4396e9f0974ba6284f"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookData.json",
+      "size_bytes": 1897482,
+      "sha256": "2998161de437518e3447e779c7ce7418f081895e388081bff315f3c258752d8c"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDataSet.Designer.cs",
+      "size_bytes": 335829,
+      "sha256": "e03d5d95727e30d59d6d556b5c9ca39bbbf71427b7a63a8d5b7f1f4ee0ea16f3"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDataSet.cs",
+      "size_bytes": 91,
+      "sha256": "6abb8f600f9222ebaadfa7bf1d4d9daf2f9fe2291558fd56e580ed4992c67ce0"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDataSet.xsc",
+      "size_bytes": 353,
+      "sha256": "6a55a80669d9a1d572b5d67b7e64e0d19c24686f75b81f2461f1f3bb949525d7"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDataSet.xsd",
+      "size_bytes": 38540,
+      "sha256": "e1921f1af7480f6face77cb54ab4aff5a16824c422f79a14ad9d932af46ed042"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDataSet.xss",
+      "size_bytes": 6280,
+      "sha256": "5f4c964d763bc800bd8cf37b3eb701899e74dfd59a5153e92bdfa80237183df4"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDatabase.tt",
+      "size_bytes": 15877,
+      "sha256": "4aaa7c745846c74e1284fcf466eba4c89f2e53de107bd3c3e15700c9216b9ede"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/ChinookDatabase.txt",
+      "size_bytes": 1937,
+      "sha256": "209c5ef9b712ca4ef8e27dbd4211b1feba6ba3c582a7a99f44c6093b3399a1ef"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_Db2.sql",
+      "size_bytes": 604388,
+      "sha256": "c3c02ef80b75ee31682c4c6e617ca62a0639cb024231fa6bed97cc1b8042047f"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_MySql.sql",
+      "size_bytes": 600574,
+      "sha256": "68768623bac1fe6f92c317235735c706a54a28cc76ab175c194e99f994dadbd6"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_MySql_AutoIncrementPKs.sql",
+      "size_bytes": 563074,
+      "sha256": "947ba37b51c416b07423b6be5a5f7eb66ffc0a867bc133b1c3febef5fe8e05bd"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_Oracle.sql",
+      "size_bytes": 613709,
+      "sha256": "9f09481f725af60a98f57ecd526b97c56b65b0056729e96f35e2ab711ea248f7"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_PostgreSql.sql",
+      "size_bytes": 600200,
+      "sha256": "e3fde5c1a5b51a2a91429a702c9ca6e69ba56e6c7f5e112724d70c3d03db695e"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_PostgreSql_AutoIncrementPKs.sql",
+      "size_bytes": 562854,
+      "sha256": "a277ce8e5204cd7ef69fc5eef691726b46a22204ec9af210a77e004118f3696e"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_PostgreSql_SerialPKs.sql",
+      "size_bytes": 562563,
+      "sha256": "847361ebbd17aaa18b5423831bf3bfc7ab1f0ad3c62c5bfe4770242bec5ddaf1"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_SqlServer.sql",
+      "size_bytes": 601344,
+      "sha256": "5ea75c9e925ead917d3fabea6ed3cc8c1ff1d036b61e915c94631aafa2b0802b"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_SqlServerCompact.sqlce",
+      "size_bytes": 600141,
+      "sha256": "7788c91ed477e1e04829e682e4f5f0e97687221cf73f8a7abd403c95a414297f"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_SqlServerCompact_AutoIncrementPKs.sqlce",
+      "size_bytes": 562539,
+      "sha256": "18cc171b8ceb5dec8640c407a58758a9184d64ee1760430f14d9ee3cc42195c1"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_SqlServer_AutoIncrementPKs.sql",
+      "size_bytes": 563826,
+      "sha256": "71c370fc0c55b638b1fee0b701bc7b6b97731d34caa3addc921160b5ad0bb610"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_Sqlite.sql",
+      "size_bytes": 595545,
+      "sha256": "caf31d698a4a79c628215b552dfe6575e71be052ae02b8f18e763498f55f5d44"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_Sqlite.sqlite",
+      "size_bytes": 1007616,
+      "sha256": "7651ba378ac2fcd0dfc3c66fb101f7a7eed3ba39a612ec642b96e20702061f15"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_Sqlite_AutoIncrementPKs.sql",
+      "size_bytes": 557539,
+      "sha256": "31a4668886e3a71204053e7c41417ad9741a5d428f8c634b7ab205da52f50e44"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/Chinook_Sqlite_AutoIncrementPKs.sqlite",
+      "size_bytes": 1011712,
+      "sha256": "bd161873d262799877a813d24f269a9e5c5fab07e1bb131620871570455fc678"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/CreateDb2.bat",
+      "size_bytes": 595,
+      "sha256": "0ce87b8bd935c35769fcd6183dd69ac3a2241974f9b6ee838e95fb1ab835ba81"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/CreateMySql.bat",
+      "size_bytes": 639,
+      "sha256": "f53965e008daeb9a7cce3db05203bbbdf3a4726d3a14ab1a8bb9863328c61d72"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/CreateOracle.bat",
+      "size_bytes": 537,
+      "sha256": "2cec56b45a438f565ec8e6151ee0d67997bfa6188248a0bf6f5e749c6a85deff"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/CreatePostgreSql.bat",
+      "size_bytes": 874,
+      "sha256": "4c58b6b59bcb08ad999e91c4945f07ec2320502f3fb445ee1957348545e78430"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/CreateSqlServer.bat",
+      "size_bytes": 644,
+      "sha256": "a99aec205ba1be9ff455d177f3dec8375b0b9e8908dc7cbb0356264050975dca"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DataSources/CreateSqlite.bat",
+      "size_bytes": 662,
+      "sha256": "bb901640c08ba57a08e0931b11c783397baf13dd9b3331c3c511e15745fb02d2"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/AbstractDdlStrategy.cs",
+      "size_bytes": 4691,
+      "sha256": "19846fc510019f077ae715a48f42842cb1ad996bf6c1258f9f774cb73ba28aa8"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/Db2Strategy.cs",
+      "size_bytes": 1144,
+      "sha256": "1f60ee1a521cc5b0ec4295891cd0414a8daca156a444bb4849c18b52f8e0d535"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/IDdlStrategy.cs",
+      "size_bytes": 2052,
+      "sha256": "f9224581127cc4a7356ca316d0b2c1a8c57c3469b64b8830d08f7ec12dfcd4ec"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/KeyDefinition.cs",
+      "size_bytes": 297,
+      "sha256": "50710c78c658db1342c276c826a81fe801b9db6eaaf9f7c6bf84f5e0868499c9"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/MySqlStrategy.cs",
+      "size_bytes": 1300,
+      "sha256": "492ad709f88c23d084c6c36471b9355456ac6ad2bcc03961a305b07b2703c057"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/OracleStrategy.cs",
+      "size_bytes": 2882,
+      "sha256": "43d86147de4a6fe20876a2a60f70be6a72f5e626c0a56696dce907e05d5732c5"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/PostgreSqlStrategy.cs",
+      "size_bytes": 2172,
+      "sha256": "f184cd71ab5445ce417e53d15a4f1416e2c90b40e15a235b8f780bbdbb9aae73"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/PrimaryKeyStrategy.cs",
+      "size_bytes": 137,
+      "sha256": "0b5a2933e96c9083d6008d9dfdef2aeadc2f2a7e2eec78b9c358f7d94c322d74"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/SqlServerStrategy.cs",
+      "size_bytes": 1818,
+      "sha256": "224a9bc232f14a741e97897783998b7deea7c063cfde187991835bdf1cd6cf53"
+    },
+    {
+      "path": "source/master/ChinookDatabase/DdlStrategies/SqliteStrategy.cs",
+      "size_bytes": 2012,
+      "sha256": "9af24399ae22442c0ac2a8ea18389667596ee15cfa8ee55617087fcf7a237694"
+    },
+    {
+      "path": "source/master/ChinookDatabase/Utilities/DataSetHelper.cs",
+      "size_bytes": 2482,
+      "sha256": "0926104dfe90ea68f20809ed85c6e2cc22a1e78d794fc033b73c1e3a70932a50"
+    },
+    {
+      "path": "source/master/ChinookDatabase/_T4Templates/Chinook.tt",
+      "size_bytes": 3312,
+      "sha256": "4f2219f75ddbc579b5a2e4cbabc67007ab8be41084f42018bf99ee2c709fec75"
+    },
+    {
+      "path": "source/master/ChinookDatabase/_T4Templates/Chinook.ttinclude",
+      "size_bytes": 360220,
+      "sha256": "38832aa3d8e49a4aa339bb206888f5af16952e1206cd7cb1da627a1155dcf060"
+    },
+    {
+      "path": "source/master/ChinookDatabase/_T4Templates/Manager.ttinclude",
+      "size_bytes": 8031,
+      "sha256": "a5476a5c9cc6fad48cd5e01a161b21f0770e2ea858f3e6cadbda6e7387cb62bb"
+    },
+    {
+      "path": "source/master/LICENSE.md",
+      "size_bytes": 1117,
+      "sha256": "5064d720db431474b0a0b0cef9d2b5e362b6c6f80602b35c6443b07cbc979f77"
+    },
+    {
+      "path": "source/master/README.md",
+      "size_bytes": 3183,
+      "sha256": "f8c04f76f7887110731e4cb2286dcb9de4b23db99b88c0ca548652b8cafebd9c"
+    },
+    {
+      "path": "source/master/docker-compose.yml",
+      "size_bytes": 5380,
+      "sha256": "cb4bdeceb0b89f44707bf3facc9ba2e8210da620174cccaa8e860c994565e427"
+    },
+    {
+      "path": "source/master/docker/init-db2.sh",
+      "size_bytes": 1464,
+      "sha256": "ae788ed0c69acd2837e6a0161a0aa679059b3b0ba33eb784e9dcaea51c563cc9"
+    },
+    {
+      "path": "source/v1.4.5/.gitignore",
+      "size_bytes": 252,
+      "sha256": "a8aecd3b65cfea1c0a813c285955dff9e98ae17aaed5144b11e49b39d53f3d4d"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/ChinookDatabase.Test.csproj",
+      "size_bytes": 2183,
+      "sha256": "73c6c141ca34bd0cca034b4854a8d8a30149b677c254468c925e5a2b1ad05c91"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookDb2Fixture.cs",
+      "size_bytes": 37751,
+      "sha256": "7058fe389837cd2317da54bda4097e2ff877f58b7aad39a4a04a0239704daaff"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookMySqlFixture.cs",
+      "size_bytes": 39329,
+      "sha256": "5f6dc65206a4ee546ffff57ce6404b0ef6490a02d67e8554822c8af59a0ea0ba"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookOracleFixture.cs",
+      "size_bytes": 37577,
+      "sha256": "764853e4f60936cf979ad164f4ee38de5f20501d4ff9aaf1568c6a0dfe985c24"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookPostgreSqlFixture.cs",
+      "size_bytes": 41257,
+      "sha256": "00cdd6f45f4a592a1ce2fb193e9969d90b6b44e040c591add50b4a35bd29b38b"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookSqlServerCompactFixture.cs",
+      "size_bytes": 40144,
+      "sha256": "8bdbd46e4e87158f20ff835c7c37733d4a89c53136c7136010dd7567710a9bab"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookSqlServerFixture.cs",
+      "size_bytes": 39884,
+      "sha256": "d91d40c24553d38cbe056173bf41f4dcbde4a8eb4dff0fea49090845bd2d6199"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/ChinookSqliteFixture.cs",
+      "size_bytes": 39404,
+      "sha256": "c5b74772af28bf217b2969bb6e72cdc2d1719e3f6a3c4d40de98db812f9b7564"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/DatabaseFixture.cs",
+      "size_bytes": 97,
+      "sha256": "80e488057ec9e7c0924f9b1f4233849817acfd4921a3ae2e2939fd1b99daee19"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/DatabaseTests/DatabaseFixture.tt",
+      "size_bytes": 13194,
+      "sha256": "b6757bae3474622ccb99cc0afcd3695be3421dcf635bfdcf49a56526ced0fe17"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.Test/appsettings.test.json",
+      "size_bytes": 1607,
+      "sha256": "e048aefde57c57c1a845ffa3c2eb2f9391539cfba66565ed9d080631b7b01d5f"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase.sln",
+      "size_bytes": 1665,
+      "sha256": "893c1e0062fa1c3ade54fa4c0533bdf633657979ea3a4b3e518a5b21ee868330"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/ChinookDatabase.csproj",
+      "size_bytes": 1783,
+      "sha256": "e56507ce2c1b5e5ce7a710f73934ab6cd32dd8b8a0fa8585c03d34d7e5ae5140"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Album.cs",
+      "size_bytes": 549,
+      "sha256": "4d917e2ba4c8af395561b1f506f85891a1f1b40d0d22282a87a2b0a76c19aacd"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Artist.cs",
+      "size_bytes": 355,
+      "sha256": "690057ee036bbdfa4981f815e1f1d47e6cd9c8e6d65b04d8f34d21a65b7521d8"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Customer.cs",
+      "size_bytes": 1296,
+      "sha256": "e3406c3c984b50b8f4fe9d6d82389067065fe79124af4add27205815a30be30c"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Employee.cs",
+      "size_bytes": 1410,
+      "sha256": "d875eea5da123f197013f53a8c1c31e7aea0e561809a7d2c69d0e87b6c224cb8"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Genre.cs",
+      "size_bytes": 341,
+      "sha256": "4d82caaffa5364adfd8c4c6eff8bd08496212a7d3ea22660fb504b17787f4366"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Invoice.cs",
+      "size_bytes": 1023,
+      "sha256": "0ef02a6a1506a7740fda455deaef9f63ab60e6220e4d0a4d2084587a91886040"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/InvoiceLine.cs",
+      "size_bytes": 768,
+      "sha256": "78e3349496c1ced027baa23e6191b4fda2ad0f5155cd1811d489ea82bb5f83ff"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/MediaType.cs",
+      "size_bytes": 357,
+      "sha256": "4cc50d9666f49c037ad60be3d759c9f7cdb57f55b4849a0775ead97b42ddc68a"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Playlist.cs",
+      "size_bytes": 363,
+      "sha256": "2f62a05122c2e508de2c0c57c28b90d453e1029f877530261a91425eb3099a65"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/PlaylistTrack.cs",
+      "size_bytes": 648,
+      "sha256": "0a4da5cac3e5eac2c9acc11bd73c0c00047d28676e3ac77b7358f9a2bb0d010c"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataModel/Track.cs",
+      "size_bytes": 997,
+      "sha256": "d4d9b183c483b13788444f507b7505bfe95d7021f1f61d0316461a3db758238b"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookData.json",
+      "size_bytes": 1897482,
+      "sha256": "2998161de437518e3447e779c7ce7418f081895e388081bff315f3c258752d8c"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDataSet.Designer.cs",
+      "size_bytes": 335829,
+      "sha256": "e03d5d95727e30d59d6d556b5c9ca39bbbf71427b7a63a8d5b7f1f4ee0ea16f3"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDataSet.cs",
+      "size_bytes": 91,
+      "sha256": "6abb8f600f9222ebaadfa7bf1d4d9daf2f9fe2291558fd56e580ed4992c67ce0"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDataSet.xsc",
+      "size_bytes": 353,
+      "sha256": "6a55a80669d9a1d572b5d67b7e64e0d19c24686f75b81f2461f1f3bb949525d7"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDataSet.xsd",
+      "size_bytes": 38540,
+      "sha256": "e1921f1af7480f6face77cb54ab4aff5a16824c422f79a14ad9d932af46ed042"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDataSet.xss",
+      "size_bytes": 6280,
+      "sha256": "5f4c964d763bc800bd8cf37b3eb701899e74dfd59a5153e92bdfa80237183df4"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDatabase.tt",
+      "size_bytes": 16509,
+      "sha256": "949e0339fcda0bcf090576a2fe816f4f9d7330b482da58bc1fa4eb1e8c42158b"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/ChinookDatabase.txt",
+      "size_bytes": 2395,
+      "sha256": "91d7a4056525fbf677ad1a6190db3ef30fc8029931b525b6cde2c8e5151c5a8f"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_Db2.sql",
+      "size_bytes": 604388,
+      "sha256": "c3c02ef80b75ee31682c4c6e617ca62a0639cb024231fa6bed97cc1b8042047f"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_MySql.sql",
+      "size_bytes": 616450,
+      "sha256": "02a1835417c3ea19bff64e1d1f22be738ce51b3f88b0473c24eebff9a3ccde4b"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_MySql_AutoIncrementPKs.sql",
+      "size_bytes": 578950,
+      "sha256": "568e22cec9021e5bf9f20964788b198e4d06870b22c5cfc02f57725bb9da34c8"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_Oracle.sql",
+      "size_bytes": 629968,
+      "sha256": "8db05a9b191c5c02d3f92c7775f7f581a611f5a46ba6ba8b614a042736dadcda"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_PostgreSql.sql",
+      "size_bytes": 600200,
+      "sha256": "e3fde5c1a5b51a2a91429a702c9ca6e69ba56e6c7f5e112724d70c3d03db695e"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_PostgreSql_AutoIncrementPKs.sql",
+      "size_bytes": 578730,
+      "sha256": "4362ba0c8a8c7851f58508f2880c869e02269237e486357c73acf6365ff0a855"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_PostgreSql_SerialPKs.sql",
+      "size_bytes": 562563,
+      "sha256": "847361ebbd17aaa18b5423831bf3bfc7ab1f0ad3c62c5bfe4770242bec5ddaf1"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_SqlServer.sql",
+      "size_bytes": 601344,
+      "sha256": "5ea75c9e925ead917d3fabea6ed3cc8c1ff1d036b61e915c94631aafa2b0802b"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_SqlServerCompact.sqlce",
+      "size_bytes": 616003,
+      "sha256": "40d7c26434bce38b05387c282bbd0f4d61f7ee21edb66a3680df0c2a19103974"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_SqlServerCompact_AutoIncrementPKs.sqlce",
+      "size_bytes": 578401,
+      "sha256": "161a5e446688aea98ba7c72ed37af663482fa5b3717945231bcd42629ba7c7e8"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_SqlServer_AutoIncrementPKs.sql",
+      "size_bytes": 563826,
+      "sha256": "71c370fc0c55b638b1fee0b701bc7b6b97731d34caa3addc921160b5ad0bb610"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_Sqlite.sql",
+      "size_bytes": 611447,
+      "sha256": "fdcb271b3e9c840216b09168752bddca973ed3917b40e49b603b15831114aea1"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_Sqlite.sqlite",
+      "size_bytes": 1067008,
+      "sha256": "bdf635be69850bd3be09c9a2dbeef7ddfb80036bd3ef3381383cd03b61e4a61a"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_Sqlite_AutoIncrementPKs.sql",
+      "size_bytes": 573431,
+      "sha256": "8918f02ec280d47f6ca0bb04b8a9a3a175467ae8033d6a4a330bb4d584fc0a9c"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/Chinook_Sqlite_AutoIncrementPKs.sqlite",
+      "size_bytes": 1067008,
+      "sha256": "ca157cb58cb34ed2e5d4eb3418ae7a9418f0cfe8b751985b6a4482346c9548d4"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/CreateDb2.bat",
+      "size_bytes": 590,
+      "sha256": "716039ea303d9334e4dd315bae75c60699d90fb3756bd72e3bd0c1422e6309e9"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/CreateMySql.bat",
+      "size_bytes": 639,
+      "sha256": "f53965e008daeb9a7cce3db05203bbbdf3a4726d3a14ab1a8bb9863328c61d72"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/CreateOracle.bat",
+      "size_bytes": 534,
+      "sha256": "cbebce070997f5619093a65592eb1256a436e1c0625c2080a88c6706f8e57704"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/CreatePostgreSql.bat",
+      "size_bytes": 832,
+      "sha256": "32eed1692d302b629042adf2e9c19fb418dc7baf9dbe65f637bc1cf3348d3fa2"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/CreateSqlServer.bat",
+      "size_bytes": 644,
+      "sha256": "a99aec205ba1be9ff455d177f3dec8375b0b9e8908dc7cbb0356264050975dca"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DataSources/CreateSqlite.bat",
+      "size_bytes": 661,
+      "sha256": "486081ee9089d20efc17852656dfb8d967cfedfc9bd0ff002a5f8f297a461a59"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/AbstractDdlStrategy.cs",
+      "size_bytes": 4806,
+      "sha256": "4576e48439c691db96efe05a4fe9110028f20a189d7cf2c65aa138412c0865d2"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/Db2Strategy.cs",
+      "size_bytes": 1185,
+      "sha256": "5d872bb177e19077d6e286bdfd6db3291e85daca427911f50b93178d82ee5d7e"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/IDdlStrategy.cs",
+      "size_bytes": 2110,
+      "sha256": "a590c6b579dde7147ea659cf046c099219f3d149246051fb9b5047b834fa75ad"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/KeyDefinition.cs",
+      "size_bytes": 309,
+      "sha256": "52791129813be4530151c2c1b2eeddda68d0b0e18e8cb15071bfd0a2d1d55bc3"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/MySqlStrategy.cs",
+      "size_bytes": 1333,
+      "sha256": "ffcc886c813d4a460fc81dc6cd197b60d5dbea8453da149d52fd00e67a27bb7d"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/OracleStrategy.cs",
+      "size_bytes": 3345,
+      "sha256": "334c155cd18819dacb5e153d7964a460f9a638d095ad4ab6c13229cd52c12e4a"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/PostgreSqlStrategy.cs",
+      "size_bytes": 2225,
+      "sha256": "b880d914c2c2be55c8d74b9609671a1457d1b18ad586d060e06253f5b95260f4"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/PrimaryKeyStrategy.cs",
+      "size_bytes": 137,
+      "sha256": "0b5a2933e96c9083d6008d9dfdef2aeadc2f2a7e2eec78b9c358f7d94c322d74"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/SqlServerCompactStrategy.cs",
+      "size_bytes": 797,
+      "sha256": "2a6ee5adf4e51f893accca7bab69fd1baa81030de801c9b633bfd4ccd8d29daa"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/SqlServerStrategy.cs",
+      "size_bytes": 1861,
+      "sha256": "eef361c6c0d1631e91789c1ed291ba088acea0f9c1e1d4ca4fefea1014a2ad63"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/DdlStrategies/SqliteStrategy.cs",
+      "size_bytes": 2060,
+      "sha256": "8777dc9d88dcaac8be0433ef3ec1a794312f34e5402007d9470d390af32296e2"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/Utilities/DataSetHelper.cs",
+      "size_bytes": 2554,
+      "sha256": "c13c037b68b970e54448d71d057b047bdc1527dccd88e74819ab007a87bdc0ce"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/_T4Templates/Chinook.tt",
+      "size_bytes": 3537,
+      "sha256": "327a844d79ad0db8c95307c14b198f3f920e9eaa47fdabffceff2e015078caff"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/_T4Templates/Chinook.ttinclude",
+      "size_bytes": 361655,
+      "sha256": "5c9b19fac2c1b590818b74ba8b0c80cd3c774d19e4d70414eab2bdca710500a0"
+    },
+    {
+      "path": "source/v1.4.5/ChinookDatabase/_T4Templates/Manager.ttinclude",
+      "size_bytes": 8255,
+      "sha256": "ed0a106763b2d66281215dca7777f76559509028747506d6738003408d1bf26c"
+    },
+    {
+      "path": "source/v1.4.5/LICENSE.md",
+      "size_bytes": 1117,
+      "sha256": "5064d720db431474b0a0b0cef9d2b5e362b6c6f80602b35c6443b07cbc979f77"
+    },
+    {
+      "path": "source/v1.4.5/README.md",
+      "size_bytes": 2820,
+      "sha256": "5cc3b9348b669063ac7d26ef46fa6354f076912b121ef4b0f98615798c1359d5"
+    },
+    {
+      "path": "source/v1.4.5/docker-compose.yml",
+      "size_bytes": 4614,
+      "sha256": "8cbea415a6761662dae436b07f0f0fc8b0b84f0d63191e0a8aa125d5ccd5406d"
+    }
+  ],
+  "preserved_existing_paths": [
+    "Chinook.sqlite",
+    "schema.sql",
+    "upstream/"
+  ],
+  "hash_note": "SHA256 computed locally from downloaded original bytes; not publisher-signed checksums.",
+  "scope": "All assets and both source archives of latest release v1.4.5, plus pinned current master source; historical releases are not duplicated."
+}

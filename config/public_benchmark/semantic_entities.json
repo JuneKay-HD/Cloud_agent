@@ -1,0 +1,10 @@
+{
+  "tables": {"Customer": {"aliases": ["客户", "客人"]}, "Invoice": {"aliases": ["发票", "销售额"]}, "Track": {"aliases": ["曲目", "歌曲", "音轨"]}, "Album": {"aliases": ["专辑", "唱片"]}, "Artist": {"aliases": ["艺人", "歌手"]}, "Genre": {"aliases": ["曲风", "音乐类型"]}, "Employee": {"aliases": ["员工", "雇员"]}, "MediaType": {"aliases": ["媒体类型"]}, "Playlist": {"aliases": ["歌单", "播放列表"]}, "InvoiceLine": {"aliases": ["发票明细"]}, "PlaylistTrack": {"aliases": ["播放列表曲目关联"]}},
+  "fields": [
+    {"table": "Customer", "column": "Country", "entity_type": "客户所在地国家", "role_aliases": ["客户注册国家", "客户注册地国家", "客户注册所在地", "客户的注册国家", "客户注册地", "客户所在地", "客户的所在地", "客户所在国家", "客户主数据中的注册所在地", "客户主数据中的国家", "客户主数据中所在地", "客户主表中的国家"], "alias_catalog": "billing_country", "provenance": "项目entities.yaml国家译名，绑定Customer.Country"},
+    {"table": "Invoice", "column": "BillingCountry", "entity_type": "发票账单国家", "role_aliases": ["发票账单国家", "发票的账单国家", "账单国家"], "alias_catalog": "billing_country", "provenance": "项目entities.yaml国家译名，绑定Invoice.BillingCountry"},
+    {"table": "Customer", "column": "City", "entity_type": "客户所在地城市", "provenance": "城市常用中英文名称及赛题给定别名；不存在的城市可读取数据库验证无记录", "aliases": {"Beijing": ["北京市", "北京", "帝都"], "Toronto": ["多伦多"], "São Paulo": ["圣保罗"], "Prague": ["布拉格"]}},
+    {"table": "Invoice", "column": "BillingCity", "entity_type": "发票账单城市", "provenance": "城市常用中英文名称及赛题给定别名，限定账单维度", "aliases": {"Beijing": ["北京市", "北京", "帝都"], "Toronto": ["多伦多"], "São Paulo": ["圣保罗"], "Prague": ["布拉格"]}},
+    {"table": "Genre", "column": "Name", "entity_type": "曲风", "provenance": "Chinook音乐类型中文译名", "aliases": {"Rock": ["摇滚", "摇滚乐"], "Jazz": ["爵士", "爵士乐"], "Metal": ["金属乐"], "Pop": ["流行乐"]}}
+  ]
+}

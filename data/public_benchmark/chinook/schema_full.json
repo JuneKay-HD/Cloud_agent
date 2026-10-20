@@ -1,0 +1,941 @@
+{
+  "Album": {
+    "row_count": 347,
+    "primary_key": [
+      "AlbumId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "AlbumId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "Title",
+        "type": "NVARCHAR(160)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "ArtistId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "Artist",
+        "from": "ArtistId",
+        "to": "ArtistId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_AlbumArtistId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 2,
+            "name": "ArtistId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId])"
+      }
+    ],
+    "create_sql": "CREATE TABLE [Album]\n(\n    [AlbumId] INTEGER  NOT NULL,\n    [Title] NVARCHAR(160)  NOT NULL,\n    [ArtistId] INTEGER  NOT NULL,\n    CONSTRAINT [PK_Album] PRIMARY KEY  ([AlbumId]),\n    FOREIGN KEY ([ArtistId]) REFERENCES [Artist] ([ArtistId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "b0ade8cb131f6418401c05737c99fd83320f5ca2c29f2a9af0bcabd62c704a80"
+  },
+  "Artist": {
+    "row_count": 275,
+    "primary_key": [
+      "ArtistId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "ArtistId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "Name",
+        "type": "NVARCHAR(120)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [],
+    "create_sql": "CREATE TABLE [Artist]\n(\n    [ArtistId] INTEGER  NOT NULL,\n    [Name] NVARCHAR(120),\n    CONSTRAINT [PK_Artist] PRIMARY KEY  ([ArtistId])\n)",
+    "ordered_rows_sha256": "3dc62c3b31be9f01175e2cc9f54f8821bd0f290df7cc407d81a206d018c25e53"
+  },
+  "Customer": {
+    "row_count": 59,
+    "primary_key": [
+      "CustomerId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "CustomerId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "FirstName",
+        "type": "NVARCHAR(40)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "LastName",
+        "type": "NVARCHAR(20)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "Company",
+        "type": "NVARCHAR(80)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "Address",
+        "type": "NVARCHAR(70)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "City",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "State",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "Country",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "PostalCode",
+        "type": "NVARCHAR(10)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "Phone",
+        "type": "NVARCHAR(24)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "Fax",
+        "type": "NVARCHAR(24)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "Email",
+        "type": "NVARCHAR(60)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "SupportRepId",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "Employee",
+        "from": "SupportRepId",
+        "to": "EmployeeId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_CustomerSupportRepId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 12,
+            "name": "SupportRepId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_CustomerSupportRepId] ON [Customer] ([SupportRepId])"
+      }
+    ],
+    "create_sql": "CREATE TABLE [Customer]\n(\n    [CustomerId] INTEGER  NOT NULL,\n    [FirstName] NVARCHAR(40)  NOT NULL,\n    [LastName] NVARCHAR(20)  NOT NULL,\n    [Company] NVARCHAR(80),\n    [Address] NVARCHAR(70),\n    [City] NVARCHAR(40),\n    [State] NVARCHAR(40),\n    [Country] NVARCHAR(40),\n    [PostalCode] NVARCHAR(10),\n    [Phone] NVARCHAR(24),\n    [Fax] NVARCHAR(24),\n    [Email] NVARCHAR(60)  NOT NULL,\n    [SupportRepId] INTEGER,\n    CONSTRAINT [PK_Customer] PRIMARY KEY  ([CustomerId]),\n    FOREIGN KEY ([SupportRepId]) REFERENCES [Employee] ([EmployeeId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "be687628bd04d077bfa1a9c6ad85cb04bc2d4204e375301cb7a125a61061731e"
+  },
+  "Employee": {
+    "row_count": 8,
+    "primary_key": [
+      "EmployeeId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "EmployeeId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "LastName",
+        "type": "NVARCHAR(20)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "FirstName",
+        "type": "NVARCHAR(20)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "Title",
+        "type": "NVARCHAR(30)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "ReportsTo",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "BirthDate",
+        "type": "DATETIME",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "HireDate",
+        "type": "DATETIME",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "Address",
+        "type": "NVARCHAR(70)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "City",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "State",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "Country",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "PostalCode",
+        "type": "NVARCHAR(10)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "Phone",
+        "type": "NVARCHAR(24)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 13,
+        "name": "Fax",
+        "type": "NVARCHAR(24)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 14,
+        "name": "Email",
+        "type": "NVARCHAR(60)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "Employee",
+        "from": "ReportsTo",
+        "to": "EmployeeId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_EmployeeReportsTo",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 4,
+            "name": "ReportsTo"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_EmployeeReportsTo] ON [Employee] ([ReportsTo])"
+      }
+    ],
+    "create_sql": "CREATE TABLE [Employee]\n(\n    [EmployeeId] INTEGER  NOT NULL,\n    [LastName] NVARCHAR(20)  NOT NULL,\n    [FirstName] NVARCHAR(20)  NOT NULL,\n    [Title] NVARCHAR(30),\n    [ReportsTo] INTEGER,\n    [BirthDate] DATETIME,\n    [HireDate] DATETIME,\n    [Address] NVARCHAR(70),\n    [City] NVARCHAR(40),\n    [State] NVARCHAR(40),\n    [Country] NVARCHAR(40),\n    [PostalCode] NVARCHAR(10),\n    [Phone] NVARCHAR(24),\n    [Fax] NVARCHAR(24),\n    [Email] NVARCHAR(60),\n    CONSTRAINT [PK_Employee] PRIMARY KEY  ([EmployeeId]),\n    FOREIGN KEY ([ReportsTo]) REFERENCES [Employee] ([EmployeeId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "daed5bf8d53ac8a0633beea4057bc3a21b1244cb5606e184acd207c9ecb729d2"
+  },
+  "Genre": {
+    "row_count": 25,
+    "primary_key": [
+      "GenreId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "GenreId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "Name",
+        "type": "NVARCHAR(120)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [],
+    "create_sql": "CREATE TABLE [Genre]\n(\n    [GenreId] INTEGER  NOT NULL,\n    [Name] NVARCHAR(120),\n    CONSTRAINT [PK_Genre] PRIMARY KEY  ([GenreId])\n)",
+    "ordered_rows_sha256": "27ae9732b2f72d3db5942e1c21a0abf303bd6f0f5a903d692b6e6901bbdd140b"
+  },
+  "Invoice": {
+    "row_count": 412,
+    "primary_key": [
+      "InvoiceId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "InvoiceId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "CustomerId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "InvoiceDate",
+        "type": "DATETIME",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "BillingAddress",
+        "type": "NVARCHAR(70)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "BillingCity",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "BillingState",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "BillingCountry",
+        "type": "NVARCHAR(40)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "BillingPostalCode",
+        "type": "NVARCHAR(10)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "Total",
+        "type": "NUMERIC(10,2)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "Customer",
+        "from": "CustomerId",
+        "to": "CustomerId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_InvoiceCustomerId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 1,
+            "name": "CustomerId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_InvoiceCustomerId] ON [Invoice] ([CustomerId])"
+      }
+    ],
+    "create_sql": "CREATE TABLE [Invoice]\n(\n    [InvoiceId] INTEGER  NOT NULL,\n    [CustomerId] INTEGER  NOT NULL,\n    [InvoiceDate] DATETIME  NOT NULL,\n    [BillingAddress] NVARCHAR(70),\n    [BillingCity] NVARCHAR(40),\n    [BillingState] NVARCHAR(40),\n    [BillingCountry] NVARCHAR(40),\n    [BillingPostalCode] NVARCHAR(10),\n    [Total] NUMERIC(10,2)  NOT NULL,\n    CONSTRAINT [PK_Invoice] PRIMARY KEY  ([InvoiceId]),\n    FOREIGN KEY ([CustomerId]) REFERENCES [Customer] ([CustomerId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "f57b4510822e51d822c8251fef1f070b62c0a18301c842a52fa7971c79ef2a67"
+  },
+  "InvoiceLine": {
+    "row_count": 2240,
+    "primary_key": [
+      "InvoiceLineId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "InvoiceLineId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "InvoiceId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "TrackId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "UnitPrice",
+        "type": "NUMERIC(10,2)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "Quantity",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "Track",
+        "from": "TrackId",
+        "to": "TrackId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      },
+      {
+        "id": 1,
+        "seq": 0,
+        "table": "Invoice",
+        "from": "InvoiceId",
+        "to": "InvoiceId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_InvoiceLineTrackId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 2,
+            "name": "TrackId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_InvoiceLineTrackId] ON [InvoiceLine] ([TrackId])"
+      },
+      {
+        "seq": 1,
+        "name": "IFK_InvoiceLineInvoiceId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 1,
+            "name": "InvoiceId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_InvoiceLineInvoiceId] ON [InvoiceLine] ([InvoiceId])"
+      }
+    ],
+    "create_sql": "CREATE TABLE [InvoiceLine]\n(\n    [InvoiceLineId] INTEGER  NOT NULL,\n    [InvoiceId] INTEGER  NOT NULL,\n    [TrackId] INTEGER  NOT NULL,\n    [UnitPrice] NUMERIC(10,2)  NOT NULL,\n    [Quantity] INTEGER  NOT NULL,\n    CONSTRAINT [PK_InvoiceLine] PRIMARY KEY  ([InvoiceLineId]),\n    FOREIGN KEY ([InvoiceId]) REFERENCES [Invoice] ([InvoiceId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION,\n    FOREIGN KEY ([TrackId]) REFERENCES [Track] ([TrackId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "09b7980025aca7a5c1ff326eb1afcf130327665899dd25956709c6307e8b6fd9"
+  },
+  "MediaType": {
+    "row_count": 5,
+    "primary_key": [
+      "MediaTypeId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "MediaTypeId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "Name",
+        "type": "NVARCHAR(120)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [],
+    "create_sql": "CREATE TABLE [MediaType]\n(\n    [MediaTypeId] INTEGER  NOT NULL,\n    [Name] NVARCHAR(120),\n    CONSTRAINT [PK_MediaType] PRIMARY KEY  ([MediaTypeId])\n)",
+    "ordered_rows_sha256": "4940a863e3f77cf16e3ca04d6e93f64fb457fd6c4efa6bbacde06ec9b06b1246"
+  },
+  "Playlist": {
+    "row_count": 18,
+    "primary_key": [
+      "PlaylistId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "PlaylistId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "Name",
+        "type": "NVARCHAR(120)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [],
+    "create_sql": "CREATE TABLE [Playlist]\n(\n    [PlaylistId] INTEGER  NOT NULL,\n    [Name] NVARCHAR(120),\n    CONSTRAINT [PK_Playlist] PRIMARY KEY  ([PlaylistId])\n)",
+    "ordered_rows_sha256": "0a402989b0381c0da1c1126fcbe451afcaeb312d1d280379983d58d8e1ff5981"
+  },
+  "PlaylistTrack": {
+    "row_count": 8715,
+    "primary_key": [
+      "PlaylistId",
+      "TrackId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "PlaylistId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "TrackId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 2
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "Track",
+        "from": "TrackId",
+        "to": "TrackId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      },
+      {
+        "id": 1,
+        "seq": 0,
+        "table": "Playlist",
+        "from": "PlaylistId",
+        "to": "PlaylistId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_PlaylistTrackTrackId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 1,
+            "name": "TrackId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_PlaylistTrackTrackId] ON [PlaylistTrack] ([TrackId])"
+      },
+      {
+        "seq": 1,
+        "name": "sqlite_autoindex_PlaylistTrack_1",
+        "unique": 1,
+        "origin": "pk",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 0,
+            "name": "PlaylistId"
+          },
+          {
+            "seqno": 1,
+            "cid": 1,
+            "name": "TrackId"
+          }
+        ],
+        "create_sql": null
+      }
+    ],
+    "create_sql": "CREATE TABLE [PlaylistTrack]\n(\n    [PlaylistId] INTEGER  NOT NULL,\n    [TrackId] INTEGER  NOT NULL,\n    CONSTRAINT [PK_PlaylistTrack] PRIMARY KEY  ([PlaylistId], [TrackId]),\n    FOREIGN KEY ([PlaylistId]) REFERENCES [Playlist] ([PlaylistId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION,\n    FOREIGN KEY ([TrackId]) REFERENCES [Track] ([TrackId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "bc8cf375a39bb1af74733e899103ec59c2fe13fa21114ecbebea8a1df7acd5ba"
+  },
+  "Track": {
+    "row_count": 3503,
+    "primary_key": [
+      "TrackId"
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "TrackId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "Name",
+        "type": "NVARCHAR(200)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "AlbumId",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "MediaTypeId",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "GenreId",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "Composer",
+        "type": "NVARCHAR(220)",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "Milliseconds",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "Bytes",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "UnitPrice",
+        "type": "NUMERIC(10,2)",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "foreign_keys": [
+      {
+        "id": 0,
+        "seq": 0,
+        "table": "MediaType",
+        "from": "MediaTypeId",
+        "to": "MediaTypeId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      },
+      {
+        "id": 1,
+        "seq": 0,
+        "table": "Genre",
+        "from": "GenreId",
+        "to": "GenreId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      },
+      {
+        "id": 2,
+        "seq": 0,
+        "table": "Album",
+        "from": "AlbumId",
+        "to": "AlbumId",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "match": "NONE"
+      }
+    ],
+    "indexes": [
+      {
+        "seq": 0,
+        "name": "IFK_TrackMediaTypeId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 3,
+            "name": "MediaTypeId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_TrackMediaTypeId] ON [Track] ([MediaTypeId])"
+      },
+      {
+        "seq": 1,
+        "name": "IFK_TrackGenreId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 4,
+            "name": "GenreId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_TrackGenreId] ON [Track] ([GenreId])"
+      },
+      {
+        "seq": 2,
+        "name": "IFK_TrackAlbumId",
+        "unique": 0,
+        "origin": "c",
+        "partial": 0,
+        "columns": [
+          {
+            "seqno": 0,
+            "cid": 2,
+            "name": "AlbumId"
+          }
+        ],
+        "create_sql": "CREATE INDEX [IFK_TrackAlbumId] ON [Track] ([AlbumId])"
+      }
+    ],
+    "create_sql": "CREATE TABLE [Track]\n(\n    [TrackId] INTEGER  NOT NULL,\n    [Name] NVARCHAR(200)  NOT NULL,\n    [AlbumId] INTEGER,\n    [MediaTypeId] INTEGER  NOT NULL,\n    [GenreId] INTEGER,\n    [Composer] NVARCHAR(220),\n    [Milliseconds] INTEGER  NOT NULL,\n    [Bytes] INTEGER,\n    [UnitPrice] NUMERIC(10,2)  NOT NULL,\n    CONSTRAINT [PK_Track] PRIMARY KEY  ([TrackId]),\n    FOREIGN KEY ([AlbumId]) REFERENCES [Album] ([AlbumId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION,\n    FOREIGN KEY ([GenreId]) REFERENCES [Genre] ([GenreId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION,\n    FOREIGN KEY ([MediaTypeId]) REFERENCES [MediaType] ([MediaTypeId]) \n\t\tON DELETE NO ACTION ON UPDATE NO ACTION\n)",
+    "ordered_rows_sha256": "b935c7c29ca50dc24852dc55d979b7123045608c9cc4109e71306b8c0f2c35f2"
+  }
+}

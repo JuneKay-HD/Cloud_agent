@@ -1,0 +1,43 @@
+{
+  "domain_id": "warehouse",
+  "version": "1.0",
+  "description": "Synthetic warehouse onboarding example",
+  "tables": {
+    "Inventory": {
+      "description": "库存记录 Id Warehouse SKU Qty",
+      "aliases": [
+        "库存"
+      ]
+    }
+  },
+  "fields": [
+    {
+      "table": "Inventory",
+      "column": "Warehouse",
+      "entity_type": "仓库",
+      "aliases": {
+        "north": [
+          "北仓"
+        ],
+        "south": [
+          "南仓"
+        ]
+      },
+      "provenance": "业务维护的仓库代码表"
+    },
+    {
+      "table": "Inventory",
+      "column": "SKU",
+      "entity_type": "物料编码",
+      "aliases": {
+        "A001": [
+          "甲料"
+        ],
+        "B002": [
+          "乙料"
+        ]
+      },
+      "provenance": "业务维护的物料目录"
+    }
+  ]
+}

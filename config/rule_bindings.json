@@ -1,0 +1,7 @@
+{
+  "net_income": {
+    "refund_amount": "confirmed_only",
+    "period_basis": "invoice_date",
+    "refund_time_scope": "all_linked"
+  }
+}

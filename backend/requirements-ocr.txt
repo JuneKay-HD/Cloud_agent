@@ -1,0 +1,2 @@
+# Compatibility entry point: Qwen visual OCR uses the default backend dependencies.
+-r requirements.txt

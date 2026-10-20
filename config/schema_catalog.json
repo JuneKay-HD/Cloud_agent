@@ -1,0 +1,32 @@
+{
+  "database": "demo.db",
+  "dialect": "sqlite",
+  "tables": [
+    {
+      "name": "Invoice",
+      "description": "销售发票，一行代表一张发票",
+      "primary_key": "InvoiceId",
+      "columns": [
+        {"name": "InvoiceId", "type": "INTEGER", "description": "发票编号"},
+        {"name": "CustomerId", "type": "INTEGER", "description": "客户编号"},
+        {"name": "InvoiceDate", "type": "TEXT", "description": "开票日期"},
+        {"name": "BillingCountry", "type": "TEXT", "description": "账单国家"},
+        {"name": "Total", "type": "REAL", "description": "发票含税金额"}
+      ]
+    },
+    {
+      "name": "Customer",
+      "description": "客户主数据，一行代表一个客户",
+      "primary_key": "CustomerId",
+      "columns": [
+        {"name": "CustomerId", "type": "INTEGER", "description": "客户编号"},
+        {"name": "FirstName", "type": "TEXT", "description": "名"},
+        {"name": "LastName", "type": "TEXT", "description": "姓"},
+        {"name": "Country", "type": "TEXT", "description": "客户所在国家"}
+      ]
+    }
+  ],
+  "joins": [
+    {"left": "Invoice.CustomerId", "right": "Customer.CustomerId", "type": "many_to_one"}
+  ]
+}

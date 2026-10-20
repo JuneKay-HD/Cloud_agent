@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "chart",
+    "title": "测试 Chinook 问数",
+    "text": "查询2013年各国家销售额前三名"
+  },
+  {
+    "icon": "book",
+    "title": "阅读 OHR 文档",
+    "text": "根据知识库，What specific feature of John Dunham and Associates' economic impact studies allows end users to find data for a state or legislative district?"
+  },
+  {
+    "icon": "sparkle",
+    "title": "测试同比与上下文",
+    "text": "查询2012年和2013年美国销售额同比"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "退款计算规则.pdf": {
+    "valid_from": "2012-01-01",
+    "valid_to": "2013-01-01",
+    "version": "synthetic-v1"
+  },
+  "优惠资格规则.docx": {
+    "valid_from": "2012-01-01",
+    "valid_to": "2013-01-01",
+    "version": "synthetic-v1"
+  }
+}

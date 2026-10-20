@@ -1,0 +1,30 @@
+metrics:
+  sales_amount:
+    name: 销售额
+    aliases:
+    - 营收
+    - 销售金额
+    description: Chinook 发票 Total 合计；不推断含税、净收入或币种，退款数据未提供
+    expression: SUM(Invoice.Total)
+    required_fields:
+    - time_range
+    unit: 原始金额单位
+  invoice_count:
+    name: 发票数量
+    aliases:
+    - 订单数
+    - 交易笔数
+    description: 符合筛选条件的发票记录数量
+    expression: COUNT(Invoice.InvoiceId)
+    required_fields:
+    - time_range
+    unit: 张
+  customer_count:
+    name: 客户数量
+    aliases:
+    - 客户数
+    description: 符合筛选条件的去重客户数量
+    expression: COUNT(DISTINCT Invoice.CustomerId)
+    required_fields:
+    - time_range
+    unit: 人

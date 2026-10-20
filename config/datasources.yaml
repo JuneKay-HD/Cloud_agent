@@ -1,0 +1,43 @@
+# 数据源注册表（请求级来源选择）
+#
+# 每个数据库 / 知识库一个条目。路径相对本项目根目录，也可写绝对路径。
+# “数据库问数前必须先选数据库，知识库问答前必须先选知识库，跨源任务需
+# 同时满足”由 backend/app/sources.py 在请求时按 route 校验；未选择、未知
+# 或不可读的来源会被拦截，绝不静默使用默认来源或全部知识库。
+#
+# 上传 / 导入 / 创建数据源不受此选择门控影响。
+database:
+  rule_demo:
+    label: 规则演示库（rule_demo）
+    database_path: data/rule_demo/business.db
+    config_path: config
+    dataset_profile: rule_demo
+    rag_min_lexical_coverage: 0.45
+    demo_data_label: 合成演示资料：10位客户、20张发票、4笔已确认退款；仅用于机制验证
+  chinook:
+    label: Chinook 公开样例（销售）
+    database_path: data/public_benchmark/chinook/Chinook.sqlite
+    config_path: config/public_benchmark
+    dataset_profile: public
+    rag_min_lexical_coverage: 0.2
+    demo_data_label: Chinook 公开样例：59位客户、412张发票（2009—2013）；OHR-Bench 官方校对文本，非本地 OCR 结果
+
+knowledge_base:
+  rule_demo_docs:
+    label: 自定义知识库
+    documents_path: data/rule_demo/documents
+    indexes_path: data/rule_demo/indexes
+    parsed_path: data/rule_demo/parsed
+    config_path: config
+    dataset_profile: rule_demo
+    rag_min_lexical_coverage: 0.45
+    demo_data_label: 合成演示资料：10位客户、20张发票、4笔已确认退款；仅用于机制验证
+  ohr:
+    label: OHR 公开知识库（1261 份官方校对文本）
+    documents_path: data/public_benchmark/ohr/documents
+    indexes_path: data/public_benchmark/ohr/indexes
+    parsed_path: data/public_benchmark/ohr/parsed
+    config_path: config/public_benchmark
+    dataset_profile: public
+    rag_min_lexical_coverage: 0.2
+    demo_data_label: Chinook 公开样例：59位客户、412张发票（2009—2013）；OHR-Bench 官方校对文本，非本地 OCR 结果

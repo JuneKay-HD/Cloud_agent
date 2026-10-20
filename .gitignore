@@ -1,0 +1,83 @@
+# ===== secrets / personal environment =====
+.env
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+*.local.env
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/.venv/
+.venv/
+
+# ===== Node =====
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.tools/
+
+# ===== logs / caches / build =====
+*.log
+*.tmp
+.idea/
+.vscode/
+.claude/
+*.pyc
+
+# ===== runtime state (auto-created) =====
+data/sessions/
+*.db-wal
+*.db-shm
+
+# ===== AI-coding / verification intermediates (delivery excludes these) =====
+tmp/
+output/
+reports/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+playwright-report/
+test-results/
+# Restore the dataset's own image assets (OHR-Bench figs/README screenshots).
+!data/public_benchmark/ohr/figs/
+!data/public_benchmark/ohr/figs/*.png
+!data/public_benchmark/ohr/figs/*.jpg
+# Chinook source distribution includes editor configs as part of the dataset;
+# restore them so the tracked set matches the original dataset.
+!data/public_benchmark/chinook/source/master/.vscode/
+!data/public_benchmark/chinook/source/master/.vscode/*.json
+
+# ===== derived retrieval indexes (regenerable via scripts/ingest_documents.py) =====
+data/public_benchmark/ohr/indexes/
+data/public_benchmark/ohr/parsed/
+data/rule_demo/indexes/
+data/rule_demo/parsed/
+data/public_benchmark/previous_profile.json
+data/public_benchmark_20261012/
+data/public_benchmark_20261012_recovered/
+data-recovered/
+
+# Gitee delivery keeps proofread documents, SQLite, schemas and manifests.
+# Restore large OHR originals using docs/OHR_DATA_RESTORE.md.
+data/public_benchmark/ohr/pdfs/
+data/public_benchmark/ohr/*.parquet
+data/public_benchmark/ohr/*.zip
+
+# OHR-Bench reference retrieval outputs (18,916 files with Windows MAX_PATH
+# overlong paths). These are benchmark reference data, not required to run the
+# app; kept physically for dataset completeness but excluded from git to keep
+# staging reliable on Windows.
+data/public_benchmark/ohr/retrieval/
+
+# GitHub source distribution: restore the OHR dataset separately.
+/data/public_benchmark/ohr/
+/data/ohr/

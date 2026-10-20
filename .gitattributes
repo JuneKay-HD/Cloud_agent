@@ -1,0 +1,13 @@
+# Preserve the official OHR JSON bytes used by the SHA256 provenance manifest
+# (same rule as the original workspace; keeps retrieval/reference hashes stable).
+data/public_benchmark/ohr/documents/*.ohr.json -text
+
+# Keep the upstream Chinook SQLite and source distributions byte-exact.
+data/public_benchmark/chinook/Chinook.sqlite -text
+
+# Preserve document offsets and database bytes across Windows checkouts.
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.sqlite binary
+*.db binary

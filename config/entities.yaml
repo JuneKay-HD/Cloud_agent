@@ -1,0 +1,17 @@
+entities:
+  billing_country:
+    name: 账单国家
+    aliases: [国家, 地区]
+    source_table: Invoice
+    source_field: BillingCountry
+    value_aliases:
+      China: [中国, 中华人民共和国, PRC]
+      USA: [美国, 美利坚, United States, United States of America]
+      France: [法国]
+      Germany: [德国]
+      Canada: [加拿大]
+  customer:
+    name: 客户
+    aliases: [用户, 消费者]
+    source_table: Customer
+    source_field: CustomerId
